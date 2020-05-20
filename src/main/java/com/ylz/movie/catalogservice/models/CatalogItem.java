@@ -2,12 +2,12 @@ package com.ylz.movie.catalogservice.models;
 
 public class CatalogItem {
     private String name;
-    private String desc;
+    private String description;
     private int rating;
 
-    public CatalogItem(String name, String desc, int rating) {
+    public CatalogItem(String name, String description, int rating) {
         this.name = name;
-        this.desc = desc;
+        this.description = description;
         this.rating = rating;
     }
 
@@ -19,12 +19,12 @@ public class CatalogItem {
         this.name = name;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public int getRating() {
